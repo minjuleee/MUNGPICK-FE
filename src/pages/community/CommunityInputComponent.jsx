@@ -1,21 +1,31 @@
-import React, { useState } from 'react';
-import S from './style';
-import BasicInput from '../../components/input/BasicInput';
-import BasicButton from '../../components/button/BasicButton';
+import { useState } from 'react';
+import { useSelector } from 'react-redux';
 import PopupCardLarge from '../../components/popUp/PopupCardLarge';
+<<<<<<< HEAD
 import TextArea from '../../components/textArea/TextArea';
 import CommunityTextAreaComponent from './CommunityTextAreaComponent';
 import { useSelector } from 'react-redux';
+=======
+import CommunityTextAreaComponent from './CommunityTextAreaComponent';
+import S from './style';
+import { useNavigate } from 'react-router-dom';
+
+>>>>>>> 7ce7cfeeea3d97adf04799e68203868b9cb0b807
 
 
 
 const CommunityInputComponent = ({post, setPost}) => {
+  const navigate = useNavigate();
   const [newPost, setNewPost] = useState({title:'', content:''})
   const [showConfirm, setShowConfirm] = useState(false)
 
   const currentUser = useSelector(state => state.user.currentUser);
   const profileSrc = currentUser?.dogProfile?.profileImage || '/assets/img/sample-profile.png';
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7ce7cfeeea3d97adf04799e68203868b9cb0b807
   const handleConfirm = async () => {
 
     const raw = localStorage.getItem("jwt_token");
@@ -28,6 +38,10 @@ const CommunityInputComponent = ({post, setPost}) => {
     }
     if (!token) {
       alert("로그인이 필요합니다");
+<<<<<<< HEAD
+=======
+      navigate("/sign-in");
+>>>>>>> 7ce7cfeeea3d97adf04799e68203868b9cb0b807
       return;
     }
 

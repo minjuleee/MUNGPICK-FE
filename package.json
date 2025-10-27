@@ -11,13 +11,21 @@
     "@fullcalendar/interaction": "^6.1.19",
     "@fullcalendar/react": "^6.1.19",
     "@redux-devtools/extension": "^3.3.0",
+<<<<<<< HEAD
     "@reduxjs/toolkit": "^2.9.0",
+=======
+    "@reduxjs/toolkit": "^2.8.2",
+>>>>>>> 7ce7cfeeea3d97adf04799e68203868b9cb0b807
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.1.0",
     "@testing-library/user-event": "^13.2.1",
     "date-fns": "^4.1.0",
+<<<<<<< HEAD
     "dayjs": "^1.11.18",
+=======
+    "dayjs": "^1.11.13",
+>>>>>>> 7ce7cfeeea3d97adf04799e68203868b9cb0b807
     "dotenv": "^17.2.1",
     "react": "^19.1.0",
     "react-clock": "^6.0.0",
@@ -59,4 +67,8 @@
       "last 1 safari version"
     ]
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7ce7cfeeea3d97adf04799e68203868b9cb0b807
 }
