@@ -51,6 +51,29 @@ const S = {}
   height: 1302px;
   gap: 28px;
  `
+<<<<<<< HEAD
+ S.Calendar = styled.div`
+  width: 664px;
+  height: 474px;
+  border-radius: 24px;
+  box-shadow: 9px 9px 24px rgba(0, 0, 0, 0.2);
+ `
+
+ S.Plan = styled.div`
+  width: 664px;
+  height: 386px;
+  border-radius: 24px;
+  box-shadow: 9px 9px 24px rgba(0, 0, 0, 0.2);
+`
+
+ S.Review = styled.div`
+  width: 664px;
+  height: 386px;
+  border-radius: 24px;
+  box-shadow: 9px 9px 24px rgba(0, 0, 0, 0.2);
+`
+
+=======
  // 미니캘린더
  S.Calendar = styled.div`
   width: 400px;
@@ -71,6 +94,7 @@ const S = {}
   box-shadow: 9px 9px 24px rgba(0, 0, 0, 0.2);
 `
 // 채팅방
+>>>>>>> 7ce7cfeeea3d97adf04799e68203868b9cb0b807
  S.Chat = styled.div`
   width: 686px;
   border-radius: 24px;
