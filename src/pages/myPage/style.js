@@ -9,12 +9,13 @@ const S = {}
   width: 100%;
   height: 100%;
   min-width: 800px;
+  background-color: #fff5ec;
  `
 
  S.FirstWrapper = styled.div`
   ${flexRow}
-  width: 1440px;
-  height: 570px;
+  /* width: 1440px;
+  height: 570px; */
   margin-top: 103px;
   gap: 75px;
  `
@@ -28,18 +29,18 @@ const S = {}
    align-items: flex-start;
  `
 
- S.Profile = styled.div`
-  width: 480px;
-  height: 570px;
-  border-radius: 24px;
-  box-shadow: 9px 9px 24px rgba(0, 0, 0, 0.2);
- `
+//  S.Profile = styled.div`
+//   /* width: 480px; */
+//   /* height: 570px; */
+//   border-radius: 24px;
+//   box-shadow: 9px 9px 24px rgba(0, 0, 0, 0.2);
+//  `
 
  S.Friends = styled.div`
   display: flex;
   justify-content: center;
   width: 885px;
-  height: 570px;
+  /* height: 570px; */
   border-radius: 24px;
   box-shadow: 9px 9px 24px rgba(0, 0, 0, 0.2);
   padding: 0 30px;
@@ -48,7 +49,7 @@ const S = {}
  S.CalendarWrapper = styled.div`
   ${flexColumn}
   width: 664px;
-  height: 1302px;
+  /* height: 1302px; */
   gap: 28px;
  `
  // 미니캘린더
