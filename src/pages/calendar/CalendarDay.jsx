@@ -5,6 +5,11 @@ import Diary from './Diary';
 import Schedule from './Schedule';
 import S from './style2';
 
+<<<<<<< HEAD
+const CalendarDay = ({ eventId, onBack, initialDate }) => {
+  // 선택된 날짜 관리
+  const [selectedDate, setSelectedDate] = useState(initialDate);
+=======
 
 const CalendarDay = ({ scheduleInfo, scheduleDate, onBack, initialDate, refreshKey = 0 }) => {
   const user_id = useSelector((state) => state.user.currentUser?.user_id);
@@ -14,6 +19,7 @@ const CalendarDay = ({ scheduleInfo, scheduleDate, onBack, initialDate, refreshK
   );
   const [schedule, setSchedule] = useState(scheduleInfo ?? null);
   const [deleteKey, setDeleteKey] = useState(0);
+>>>>>>> 7ce7cfeeea3d97adf04799e68203868b9cb0b807
 
   useEffect(() => {
     setSelectedDate(scheduleInfo?.date ?? initialDate);
@@ -82,7 +88,11 @@ const CalendarDay = ({ scheduleInfo, scheduleDate, onBack, initialDate, refreshK
 
   return (
     <S.CalendarDay>
+<<<<<<< HEAD
+      <S.CalendarDayTitle mt={30} ml={30} mb={30} mr={0}>
+=======
       <S.CalendarDayTitle mt={30} ml={30} mb={30} mr={0} onClick={onBack}>
+>>>>>>> 7ce7cfeeea3d97adf04799e68203868b9cb0b807
         {selectedMonthYear}
       </S.CalendarDayTitle>
 
@@ -99,6 +109,11 @@ const CalendarDay = ({ scheduleInfo, scheduleDate, onBack, initialDate, refreshK
         ))}
       </S.CalendarDayHeaderContainer>
 
+<<<<<<< HEAD
+      <S.CalendarDayContainer>
+        <Schedule eventId={eventId} selectedDate={selectedDate} />
+        <Diary eventId={eventId} selectedDate={selectedDate} />
+=======
         {/* prop으로 schedule.id 전해주기 */}
       <S.CalendarDayContainer>
         <Schedule 
@@ -111,6 +126,7 @@ const CalendarDay = ({ scheduleInfo, scheduleDate, onBack, initialDate, refreshK
           selectedDate={selectedDate} 
           onDeleted={handleDeleted}
         />
+>>>>>>> 7ce7cfeeea3d97adf04799e68203868b9cb0b807
       </S.CalendarDayContainer>
     </S.CalendarDay>
 
