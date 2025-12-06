@@ -53,9 +53,11 @@
 <img width="3360" height="2100" alt="image" src="https://github.com/user-attachments/assets/c14866ad-470f-4187-b426-8234de070a06" />
 일정 제목 / 일정 시간 / 일정 장소 / 함께 할 친구 선택 후 일정 추가
 
+
 ### ✔ 캘린더 초기 화면
 <img width="3360" height="2100" alt="image" src="https://github.com/user-attachments/assets/618a14ae-491c-40f6-a77e-51cd9958c741" />
 일정이 추가 된 캘린더 화면, 왼쪽 바에서 미니 캘린더와 오늘을 기준으로 일정을 분류해 날짜별로 리스트 정렬
+
 
 ### ✔ 일정 상세 화면
 <img width="3360" height="2100" alt="image" src="https://github.com/user-attachments/assets/17033286-fa27-4cf9-9676-0b7377d73dc8" />
@@ -63,25 +65,29 @@
 일정 화면과 일기 화면이 나오는데 일기 화면은 사진 업로드 가능,
 일정, 일기 수정 및 삭제 가능
 
+
 ### ✔ 채팅 화면
 <img width="3360" height="2100" alt="image" src="https://github.com/user-attachments/assets/595345a5-2885-46ad-9c69-02e7f7cbb914" />
 <img width="3360" height="2100" alt="image" src="https://github.com/user-attachments/assets/30d49d96-1ff5-4d19-bbd7-9c5e318f199b" />
 <img width="3360" height="2100" alt="image" src="https://github.com/user-attachments/assets/71b35bad-eb7a-4bca-a2e1-0cf9254ca5ae" />
 채팅 바에서 텍스트와 사진을 업로드하여 채팅 가능
 
+
 ### ✔ 채팅 일정 추가 화면
 <img width="3360" height="2100" alt="image" src="https://github.com/user-attachments/assets/eb87bc66-609a-490f-a979-2d2fbaeed51f" />
 채팅화면에서도 일정 추가 가능, 캘린더에서 연동
 
-### ✔ 최종 결과 화면
+
+### ✔ 채팅 일정, 이미지 리스트 화면
 <img width="3360" height="2100" alt="image" src="https://github.com/user-attachments/assets/e1351766-eabb-49f6-95e7-053471e5fbd0" />
-<img width="3360" height="2100" alt="image" src="https://github.com/user-attachments/assets/d65cce9f-1ba9-4d7c-b06a-f8f7cc0ba8ce" />
+<img width="1680" height="1050" alt="스크린샷 2025-12-06 오후 7 57 28" src="https://github.com/user-attachments/assets/0fcdb58a-92ab-4540-a41d-2b224f67529b" />
 오른쪽 바에서 상대와 함께 공유한 일정과 이미지 모두 한 눈에 볼 수 있음
+
 
 ---
 
 ## 📹 4. 시연 영상
-ㅡ
+---
 
 [Demo 영상 보기](https://www.youtube.com/watch?v=nm-d-1po4gE)
 
